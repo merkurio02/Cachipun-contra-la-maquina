@@ -127,7 +127,10 @@ function getHand(number) {
 }
 
 function remake() {
-    $('.hands').removeClass(getHand(cpuhand)).removeClass(getHand(userhand)).addClass(getHand(-1)).removeClass('border-danger').removeClass('border-success') ;
+    $('#cpu-hand').removeClass(getHand(cpuhand)).addClass(getHand(-1));
+
+    $('#user-hand').removeClass(getHand(userhand)).addClass(getHand(-1));
+    $('.hands').removeClass('border-success').removeClass('border-danger');
 
 
 
