@@ -63,23 +63,24 @@
 
 
         <div class="container row justify-content-center">
+            <h3 id="mensaje" >Elige, piedra papel o tijeras</h3>
                 <div class="col-12 col-md-8 row ">
-                    <div id="cpu-panel" class="col-6 p-1">
-                        <div class="border border-2 rounded d-flex justify-content-center">
-                            <i class="far fa-9x fa-hand-scissors m-3"></i>
+                    
+                    <div  class="col-6 p-1 ">
+                        <div id="user-border" class="border border-4 rounded d-flex justify-content-center hands">
+                            <i id="user-hand" class="far fa-9x fa-question-circle m-3"></i>
                         </div>
                     </div>
-                    <div id="user-panel" class="col-6 p-1 ">
-                        <div class="border border-2 rounded d-flex justify-content-center">
-                            <i class="far fa-9x fa-hand-scissors m-3"></i>
+                    <div  class="col-6 p-1">
+                        <div  id="cpu-border" class="  border border-4 rounded d-flex justify-content-center  hands">
+                            <i id="cpu-hand" class="far fa-9x fa-question-circle m-3"></i>
                         </div>
                     </div>
                     <div id="user-panel" class="col-12 ">
-                        <button class="btn btn-primary"><i class="far fa-3x fa-hand-scissors"></i></button>
-                        <button class="btn btn-danger" > <i class="far fa-3x fa-hand-rock"></i></button>
-                        <button class="btn btn-warning"> <i class="far fa-3x fa-hand-paper"></i></button>
-                        
-                        <button class="btn btn-success"><i class="fas fa-3x fa-play"></i></i></button>
+                        <button id="btn-piedra" class="btn btn-danger" > <i class="far fa-3x fa-hand-rock"></i></button>
+                        <button id="btn-papel" class="btn btn-warning"> <i class="far fa-3x fa-hand-paper"></i></button>
+                        <button id="btn-tijeras" class="btn btn-primary" ><i class="far fa-3x fa-hand-scissors"></i></button>
+
                         
 
                     </div>
